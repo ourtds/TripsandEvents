@@ -13,3 +13,9 @@ and open the template in the editor.
 
 @import url('font-awesome/css/font-awesome.min.css');
 @import url('animate.css');
+
+.center{
+    float:none;
+    margin:0 auto;
+    
+}

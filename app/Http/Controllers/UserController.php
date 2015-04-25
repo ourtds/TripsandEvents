@@ -27,7 +27,7 @@ class UserController extends Controller {
 	 */
 	public function register()
 	{
-                          
+                           return view('register.register');
 	}
         
                     public function registeruser()
@@ -37,7 +37,7 @@ class UserController extends Controller {
         
                     public function login()
 	{
-                          
+                          return view('login.login');
 	}
         
                     public function loginuser()
