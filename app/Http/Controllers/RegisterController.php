@@ -30,5 +30,10 @@ class RegisterController extends Controller {
 	{
 		return view('register.register');
 	}
+        public function doregistration()
+	{
+		return view('register.register');
+	}
+        
 
 }
