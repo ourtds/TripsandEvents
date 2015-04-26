@@ -4,7 +4,7 @@
 <div class="container">
 <div class="row">
     <div class="span6 center">
-        <div class="span2 center">
+        <div class="span2 center  text-center">
     <h2> Login </h2>
         </div>
     <form action="login" method="POST">
@@ -19,7 +19,7 @@
             <input class="form-control" type="password" placeholder="Enter your Password" required>
                                 
          </div>
-         <div class="span2 center">
+         <div class="span2 center text-center">
       <input type="submit" value="Login " class="btn btn-lg btn-primary" >
          </div>
         

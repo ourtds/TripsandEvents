@@ -16,6 +16,37 @@ and open the template in the editor.
 
 .center{
     float:none;
-    margin:0 auto;
+    margin:5px auto;
+    overflow: hidden;
+}
+.textcenter {
+    text-align:center;
     
+}
+
+body {
+      padding: 0px;
+    
+}
+
+.navbar  {
+    border-radius:0px;
+    margin-bottom: 0px;
+    
+}
+
+.absolute-center {
+    
+     position: absolute;
+  top: 50%;
+  z-index: 2;
+  width:50px;
+  max-width: 960px;
+  min-width: 100px;
+  height: 60px;
+  overflow: hidden;
+
+  margin: 0 auto;
+  left:0;
+  right:0;
 }

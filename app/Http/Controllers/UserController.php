@@ -32,6 +32,8 @@ class UserController extends Controller {
         
                     public function registeruser()
 	{
+                       
+                return view('register.register')->with('message', 'Registered');
                         
 	}
         
