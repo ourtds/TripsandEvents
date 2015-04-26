@@ -18,3 +18,5 @@ Route::post('register', 'UserController@registeruser');
 
 Route::get('login', 'UserController@login');
 Route::post('login', 'UserController@loginuser');
+
+Route::get('dashboard', 'UserController@admin');
